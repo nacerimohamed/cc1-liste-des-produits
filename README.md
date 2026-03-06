@@ -1,5 +1,8 @@
 # Laravel CRUD Produits avec Catégories
 ---
+**![Description](LISTE.PNG)**
+
+
 ## Description
 Cette application Laravel permet de gérer des **produits** et leurs **catégories**.  
 Fonctionnalités principales :  
