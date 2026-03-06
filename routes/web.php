@@ -38,6 +38,18 @@ Route::get('/stagiaires', function () {
     return view('stagiaires');
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
 ///////cc1
 
 
@@ -157,9 +169,6 @@ Route::post('/login', function (Request $request) {
 Route::get('/', ProvisionController::class);
 
 
-Route::resource('commande', CommandeControler::class)->missing(function () {
-    return Redirect::route('commande.index');
-});
 
 // Controller normal
 Route::get('/welcome', [ProduitController::class, 'show']);
